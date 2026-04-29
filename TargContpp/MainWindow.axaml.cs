@@ -1,10 +1,22 @@
+using System;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using System;
 
 namespace TargContpp;
+
 public partial class MainWindow : Window
 {
-    private TextBlock? StatusText;
-    private Button? ShowTimeButton;
-    private TextBlock? TimeText;
+    public MainWindow()
+    {
+        InitializeComponent();
+    }
+
+    public void ShowTimeButtonOnClick(object sender, RoutedEventArgs e)
+    {
+        var timeText = this.FindControl<TextBlock>("TimeText");
+        if (timeText != null)
+        {
+            timeText.Text = DateTime.Now.ToString("HH:mm:ss");
+        }
+    }
+}
