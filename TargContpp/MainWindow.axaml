@@ -1,9 +1,24 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="TargContpp.MainWindow"
-        Title="TargContpp">
-    Welcome to Avalonia!
+        Title="Target Application" 
+        Width="400" 
+        Height="300"
+        Background="White">
+    <StackPanel VerticalAlignment="Center" 
+                HorizontalAlignment="Center"
+                Spacing="10">
+        <TextBlock Name="StatusText" 
+                   Text="Приложение запущено" 
+                   FontSize="16"
+                   Foreground="Green"/>
+        <Button Name="ShowTimeButton" 
+                Content="Показать время" 
+                Width="120" 
+                Height="30"
+                Background="LightBlue"/>
+        <TextBlock Name="TimeText" 
+                   FontSize="14"
+                   Foreground="Gray"/>
+    </StackPanel>
 </Window>
