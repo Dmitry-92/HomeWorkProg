@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargContpp", "TargContpp\TargContpp.csproj", "{17E35539-FF70-4A59-8A85-E44EA61BE53B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcContrApp1", "..\ProcContrApp1\ProcContrApp1\ProcContrApp1.csproj", "{5E359B10-0C56-4BB5-895F-C435C9177B9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{17E35539-FF70-4A59-8A85-E44EA61BE53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17E35539-FF70-4A59-8A85-E44EA61BE53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17E35539-FF70-4A59-8A85-E44EA61BE53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E359B10-0C56-4BB5-895F-C435C9177B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E359B10-0C56-4BB5-895F-C435C9177B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E359B10-0C56-4BB5-895F-C435C9177B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E359B10-0C56-4BB5-895F-C435C9177B9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
